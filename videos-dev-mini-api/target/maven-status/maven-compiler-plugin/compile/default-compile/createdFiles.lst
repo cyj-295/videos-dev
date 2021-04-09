@@ -1,0 +1,5 @@
+com\videos\Application.class
+com\videos\controller\UserController.class
+com\videos\controller\BasicController.class
+com\videos\Swagger2.class
+com\videos\controller\RegistLoginController.class

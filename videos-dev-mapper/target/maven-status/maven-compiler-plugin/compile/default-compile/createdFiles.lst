@@ -1,0 +1,10 @@
+com\videos\mapper\CommentsMapper.class
+com\videos\mapper\UsersLikeVideosMapper.class
+com\videos\mapper\UsersReportMapper.class
+com\videos\mapper\VideosMapperCustom.class
+com\videos\mapper\BgmMapper.class
+com\videos\mapper\CommentsMapperCustom.class
+com\videos\mapper\UsersFansMapper.class
+com\videos\mapper\UsersMapper.class
+com\videos\mapper\VideosMapper.class
+com\videos\mapper\SearchRecordsMapper.class
