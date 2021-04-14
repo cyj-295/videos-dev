@@ -29,5 +29,11 @@ public interface VideoService {
      * @param pageSize
      * @return
      */
-    public PagedResult getAllVideos(Integer page,Integer pageSize);
+    public PagedResult getAllVideos(Videos videos,Integer isSaveRecord,Integer page,Integer pageSize);
+
+    /**
+     * 获取热搜词列表
+     * @return
+     */
+    public List<String> grtHotwords();
 }

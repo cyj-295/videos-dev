@@ -2,9 +2,11 @@ package com.videos.service.impl;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.videos.mapper.BgmMapper;
+import com.videos.mapper.SearchRecordsMapper;
 import com.videos.mapper.VideosMapper;
 import com.videos.mapper.VideosMapperCustom;
 import com.videos.pojo.Bgm;
+import com.videos.pojo.SearchRecords;
 import com.videos.pojo.Videos;
 import com.videos.pojo.vo.VideosVO;
 import com.videos.service.BgmService;
@@ -27,6 +29,8 @@ public class VideoServiceImpl implements VideoService {
     private Sid sid;
     @Autowired
     private VideosMapperCustom videosMapperCustom;
+    @Autowired
+    private SearchRecordsMapper searchRecordsMapper;
 
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
@@ -47,11 +51,29 @@ public class VideoServiceImpl implements VideoService {
 
     }
 
+    /**
+     * 保存热搜次
+     * @param videos
+     * @param isSaveRecord
+     * @param page
+     * @param pageSize
+     * @return
+     */
+    @Transactional(propagation = Propagation.REQUIRED)
     @Override
-    public PagedResult getAllVideos(Integer page, Integer pageSize) {
+    public PagedResult getAllVideos(Videos videos,Integer isSaveRecord,Integer page, Integer pageSize) {
 
+        String desc = videos.getVideoDesc();
+        if(isSaveRecord != null && isSaveRecord == 1){
+            SearchRecords record = new SearchRecords();
+            String recordId = sid.nextShort();
+            record.setContent(desc);
+            record.setId(recordId);
+            searchRecordsMapper.insert(record);
+        }
+        String userId = videos.getUserId();
         PageHelper.startPage(page,pageSize);
-        List<VideosVO> list = videosMapperCustom.queryAllVideos();
+        List<VideosVO> list = videosMapperCustom.queryAllVideos(desc,userId);
 
         PageInfo<VideosVO> pageList = new PageInfo<>(list);
 
@@ -62,5 +84,10 @@ public class VideoServiceImpl implements VideoService {
         pagedResult.setRecords(pageList.getTotal());
 
         return pagedResult;
+    }
+
+    @Override
+    public List<String> grtHotwords() {
+        return null;
     }
 }

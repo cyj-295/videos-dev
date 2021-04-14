@@ -7,5 +7,5 @@ import com.videos.utils.MyMapper;
 
 public interface SearchRecordsMapper extends MyMapper<SearchRecords> {
 	
-	public List<String> getHotwords();
+	public List<String> getHotwords(List<String> strings);
 }

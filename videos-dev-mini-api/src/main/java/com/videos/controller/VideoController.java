@@ -1,7 +1,9 @@
 package com.videos.controller;
 
 import com.videos.enums.VideoStatusEnum;
+import com.videos.mapper.SearchRecordsMapper;
 import com.videos.pojo.Bgm;
+import com.videos.pojo.SearchRecords;
 import com.videos.pojo.Users;
 import com.videos.pojo.Videos;
 import com.videos.service.BgmService;
@@ -11,10 +13,7 @@ import io.swagger.annotations.*;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
@@ -22,6 +21,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Date;
+import java.util.List;
 import java.util.UUID;
 
 @RestController
@@ -34,6 +34,8 @@ public class VideoController extends BasicController {
 
     @Autowired
     private VideoService videoService;
+    @Autowired
+    private SearchRecordsMapper searchRecordsMapper;
 
     @PostMapping(value = "/upload",headers = "content-type=multipart/form-data")
     @ApiImplicitParams({
@@ -51,7 +53,7 @@ public class VideoController extends BasicController {
         if(StringUtils.isBlank(userId)){
             return IMoocJSONResult.errorMsg("用户id不能为空。。。");
         }
-
+       System.out.println(desc);
         //文件保存的命名空间
 //        String fileSpace = "D:/develop/workspace/videos-img";
 
@@ -216,15 +218,35 @@ public class VideoController extends BasicController {
 
     }
 
+
+    /**
+     * 分页和搜索查询视频列表
+     * isSaveRecord： 1 - 需要保存
+     *               0 - 不需要保存
+     *
+     * @param videos
+     * @param isSaveRecord
+     * @param page
+     * @return
+     * @throws Exception
+     */
     @PostMapping(value = "/showAll")
     @ApiOperation(value = "上传封面", notes = "上传封面接口")
-    public IMoocJSONResult showAll(Integer page) throws Exception {
+    public IMoocJSONResult showAll(@RequestBody Videos videos,Integer isSaveRecord, Integer page) throws Exception {
 
         if(page == null){
             page = 1;
         }
 
-        PagedResult result = videoService.getAllVideos(page,PAGE_SIZE);
+        PagedResult result = videoService.getAllVideos(videos,isSaveRecord,page,PAGE_SIZE);
          return IMoocJSONResult.ok(result);
         }
+
+    @PostMapping(value = "/hot")
+//    @ApiOperation(value = "上传封面", notes = "上传封面接口")
+    public List<String> hot() throws Exception {
+        return searchRecordsMapper.getHotwords(videoService.grtHotwords());
+    }
+
+
     }

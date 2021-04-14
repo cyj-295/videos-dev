@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06fb60e4-da9d-410b-9365-3803449c5058" name="Default Changelist" comment="" />
+    <list default="true" id="06fb60e4-da9d-410b-9365-3803449c5058" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mapper/src/main/java/com/videos/mapper/SearchRecordsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mapper/src/main/java/com/videos/mapper/SearchRecordsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mapper/src/main/java/com/videos/mapper/VideosMapperCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mapper/src/main/java/com/videos/mapper/VideosMapperCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mapper/target/classes/com/videos/mapper/SearchRecordsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mapper/target/classes/com/videos/mapper/SearchRecordsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mapper/target/classes/com/videos/mapper/VideosMapperCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mapper/target/classes/com/videos/mapper/VideosMapperCustom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mini-api/src/main/java/com/videos/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mini-api/src/main/java/com/videos/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mini-api/src/main/resources/mapper/SearchRecordsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mini-api/src/main/resources/mapper/SearchRecordsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mini-api/src/main/resources/mapper/VideosMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mini-api/src/main/resources/mapper/VideosMapperCustom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mini-api/target/classes/com/videos/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mini-api/target/classes/com/videos/controller/VideoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mini-api/target/classes/mapper/SearchRecordsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mini-api/target/classes/mapper/SearchRecordsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-mini-api/target/classes/mapper/VideosMapperCustom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-mini-api/target/classes/mapper/VideosMapperCustom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-service/src/main/java/com/videos/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-service/src/main/java/com/videos/service/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-service/src/main/java/com/videos/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-service/src/main/java/com/videos/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-service/target/classes/com/videos/service/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-service/target/classes/com/videos/service/VideoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos-dev-service/target/classes/com/videos/service/impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/videos-dev-service/target/classes/com/videos/service/impl/VideoServiceImpl.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +47,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -46,6 +67,7 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1pNIDNNg6EaXDRULMrA8upK6oEf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -57,6 +79,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/videos-dev-common/src/main/java/com/videos/utils" />
@@ -64,7 +87,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -200,7 +223,10 @@
       <workItem from="1617843851757" duration="6941000" />
       <workItem from="1617861474566" duration="1541000" />
       <workItem from="1617864040149" duration="1428000" />
-      <workItem from="1617935028209" duration="2161000" />
+      <workItem from="1617935028209" duration="5551000" />
+      <workItem from="1618190414110" duration="13327000" />
+      <workItem from="1618274959816" duration="5286000" />
+      <workItem from="1618361562899" duration="9837000" />
     </task>
     <servers />
   </component>
@@ -224,10 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617695034262" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1617852151942">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1618217202288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617852151942" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618217202288" />
     <state x="563" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1615274926497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -236,54 +262,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617256775161" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1617876378640">
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1618390328031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1617876378640">
+    <state width="1877" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618390328031" />
+    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1618390328031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1617876378640">
+    <state width="1877" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618390328031" />
+    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1618390328030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1617876378640">
+    <state width="1877" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618390328030" />
+    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1618390328031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1617876378640">
+    <state width="1877" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618390328031" />
+    <state width="1877" height="202" key="GridCell.Tab.1.bottom" timestamp="1618390328031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1617876378640">
+    <state width="1877" height="202" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618390328031" />
+    <state width="1877" height="202" key="GridCell.Tab.1.center" timestamp="1618390328031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1617876378640">
+    <state width="1877" height="202" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618390328031" />
+    <state width="1877" height="202" key="GridCell.Tab.1.left" timestamp="1618390328031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1617876378640">
+    <state width="1877" height="202" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618390328031" />
+    <state width="1877" height="202" key="GridCell.Tab.1.right" timestamp="1618390328031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1617876378640">
+    <state width="1877" height="202" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618390328031" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1618308417619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1617876378640">
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618308417619" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1618308417619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1617876378640">
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618308417619" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1618308417619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
-    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1617876378640">
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618308417619" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1618308417619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617876378640" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618308417619" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1617261902811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -292,10 +318,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1615272700466" />
-    <state x="462" y="112" key="SettingsEditor" timestamp="1617257301192">
+    <state x="-49" y="157" key="SettingsEditor" timestamp="1618191399825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="462" y="112" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617257301192" />
+    <state x="-49" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618191399825" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1617608552814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -312,5 +338,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617845784446" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/videos-dev-mini-api/src/main/java/com/videos/controller/VideoController.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
